@@ -1,39 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(81, 52, 52);
+}
+
 .App {
   text-align: center;
+  margin-top: 17rem;
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-line {
+  position: absolute;
+  margin-top: -3.97rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  background-color: white;
+  text-align-last: right;
+  padding: 1rem 2.2rem;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button-line1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -3.1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.button-line1 button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  background-color: #d3d3d3;
+  border: 0.1px solid black;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.button-line4 button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2.2rem;
+  background-color: rgb(246, 121, 76);
+  border: 0.1px solid black;
+  cursor: pointer;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.button-line2 button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  background-color: #d3d3d3;
+  border: 0.1px solid black;
+  cursor: pointer;
+}
+
+.button-line3 button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  background-color: #d3d3d3;
+  border: 0.1px solid black;
+  cursor: pointer;
+}
+
+.button-line1 button:hover {
+  background-color: aliceblue;
+}
+
+.button-line1 :nth-child(1) button {
+  padding: 1rem 2.655rem;
+}
+
+.button-line1 :nth-child(5) button {
+  padding-right: 9.6rem;
+  position: absolute;
+}
+
+.button-line2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -3.1rem;
+}
+
+.button-line2 button:hover {
+  background-color: aliceblue;
+}
+
+.button-line2 :nth-child(1) button {
+  padding: 1rem 2.73rem;
+}
+
+.button-line3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-line3 button:hover {
+  background-color: aliceblue;
+}
+
+.button-line3 :nth-child(1) button {
+  padding: 1rem 2.86rem;
+}
+
+.button-line3 :nth-child(5) button {
+  padding-right: 3.23rem;
+  font-weight: bolder;
+}
+
+.button-line4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-line4 button:hover {
+  background-color: rgb(102, 180, 248);
+}
+
+.button-line4 :nth-child(1) button {
+  padding: 1rem 2.25rem;
+}
+
+.button-line4 :nth-child(2) button {
+  padding: 1rem 2.15rem;
+}
+
+.button-line4 :nth-child(4) button {
+  padding: 1rem 2.1rem;
+}
+
+.button-line4 :nth-child(5) button {
+  padding: 1rem 2.1rem;
 }

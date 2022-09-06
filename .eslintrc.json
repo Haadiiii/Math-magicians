@@ -19,7 +19,11 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "quotes": "off"
+    "quotes": "off",
+    "import/no-cycle": "off",
+    "react/destructuring-assignment": "off",
+    "react/prop-types": "off",
+    "react/prefer-stateless-function": "off"
   },
   "ignorePatterns": [
     "dist/",

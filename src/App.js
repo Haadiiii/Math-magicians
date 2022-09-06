@@ -1,25 +1,78 @@
-import logo from "./logo.svg";
+import Calcultor from "./Components/Calculator";
+import Input from "./Components/Input";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.js</code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="input-line">
+        <Input />
+      </div>
+      <div className="button-line1">
+        <Calcultor
+          name="AC"
+        />
+        <Calcultor
+          name="7"
+        />
+        <Calcultor
+          name="4"
+        />
+        <Calcultor
+          name="1"
+        />
+        <Calcultor
+          name="0"
+        />
+      </div>
+      <div className="button-line2">
+        <Calcultor
+          name="+/-"
+        />
+        <Calcultor
+          name="8"
+        />
+        <Calcultor
+          name="5"
+        />
+        <Calcultor
+          name="2"
+        />
+      </div>
+      <div className="button-line3">
+        <Calcultor
+          name="%"
+        />
+        <Calcultor
+          name="9"
+        />
+        <Calcultor
+          name="6"
+        />
+        <Calcultor
+          name="3"
+        />
+        <Calcultor
+          name="."
+        />
+      </div>
+      <div className="button-line4">
+        <Calcultor
+          name="\"
+        />
+        <Calcultor
+          name="x"
+        />
+        <Calcultor
+          name="-"
+        />
+        <Calcultor
+          name="+"
+        />
+        <Calcultor
+          name="="
+        />
+      </div>
     </div>
   );
 }
