@@ -14,15 +14,19 @@
 
 .input-line {
   position: absolute;
-  margin-top: -3.97rem;
+  margin-top: -4rem;
+  height: 8.5%;
+  background-color: #a09a9a;
 }
 
 .input {
-  background-color: white;
-  text-align-last: right;
-  padding: 1rem 2.2rem;
-  font-size: 24px;
+  background-color: #a09a9a;
+  text-align: end;
+  padding: 1rem 1rem;
+  font-size: 20px;
   font-weight: bolder;
+  width: 24.5rem;
+  color: white;
 }
 
 .button-line1 {
@@ -126,7 +130,7 @@
 }
 
 .button-line4 :nth-child(1) button {
-  padding: 1rem 2.25rem;
+  padding: 1rem 2.133rem;
 }
 
 .button-line4 :nth-child(2) button {
