@@ -2,7 +2,7 @@
 
 # Math Magecian
 
-> In this website you will add books and also watch the lists of books.
+> In this website you will Do some Calculation like Simple Calculator.
 
 ## Built With
 
