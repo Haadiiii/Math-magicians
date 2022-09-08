@@ -1,11 +1,9 @@
-import React, { Component } from "react";
+const Calculator = (props) => (
+  <div className="button">
+    <button type="submit" onClick={props.clickHandler}>
+      {props.name}
+    </button>
+  </div>
+);
 
-export default class Calculator extends Component {
-  render() {
-    return (
-      <div className="button">
-        <button type="submit" onClick={this.props.clickHandler}>{this.props.name}</button>
-      </div>
-    );
-  }
-}
+export default Calculator;
