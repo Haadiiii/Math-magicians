@@ -24,7 +24,7 @@
     "react/destructuring-assignment": "off",
     "react/prop-types": "off",
     "react/prefer-stateless-function": "off"
-  },
+    },
   "ignorePatterns": [
     "dist/",
     "build/"
