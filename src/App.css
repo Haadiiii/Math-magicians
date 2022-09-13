@@ -144,3 +144,42 @@
 .button-line4 :nth-child(5) button {
   padding: 1rem 2.1rem;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 7rem;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 26px;
+}
+
+.math {
+  justify-content: space-around;
+}
+
+.math h1 {
+  color: aquamarine;
+  font-size: 48px;
+}
