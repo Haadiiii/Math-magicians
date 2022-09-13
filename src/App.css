@@ -169,10 +169,20 @@ li {
 }
 
 .container {
+  display: grid;
+  grid-row-gap: 3rem;
   color: aliceblue;
-  text-align: center;
   margin-top: 5rem;
   font-size: 26px;
+  width: 90%;
+  margin-left: 2rem;
+}
+
+.container-quote {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 15rem;
+  font-size: 32px;
 }
 
 .math {
