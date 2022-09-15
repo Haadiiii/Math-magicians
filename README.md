@@ -11,6 +11,29 @@
 - JavaScript
 - React
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Setup
+- Clone the repository ` git clone`
+
+### Install
+- `npm install`
+- `npm run build`
+- `npm start`
+
+### Test
+- `npm run test
+
+## Live View
+
+Click [Here](https://63234d54bdce12758c3d2d77--lively-valkyrie-405179.netlify.app/) for See live.
+
 ## Authors
 
 👤 **HaaDiiii**
