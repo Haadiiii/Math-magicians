@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live View (Netlify)
 
-Click [Here](https://63234d54bdce12758c3d2d77--lively-valkyrie-405179.netlify.app/) for See live.
+Click [Here](https://mathemagecians.netlify.app/) for See live.
 
 ## Authors
 
