@@ -7,15 +7,15 @@ const Navbar = () => (
     <nav>
       <ul>
         <BrowserRouter>
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/calculator">Calculator</NavLink>
-        </li>
-        <li>
-          <NavLink to="/quote">Quote</NavLink>
-        </li>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/calculator">Calculator</NavLink>
+          </li>
+          <li>
+            <NavLink to="/quote">Quote</NavLink>
+          </li>
         </BrowserRouter>
       </ul>
     </nav>

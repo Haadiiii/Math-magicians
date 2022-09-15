@@ -1,7 +1,7 @@
-export default function operate(numberOne, numberTwo, operation) {
-  numberOne = Number(numberOne);
-  numberTwo = Number(numberTwo);
-  
+export default function operate(num1, num2, operation) {
+  const numberOne = Number(num1);
+  const numberTwo = Number(num2);
+
   if (operation === '+') {
     return (numberOne + numberTwo).toString();
   }

@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Test/__mock__/Navbar";
 import { render, cleanup } from "@testing-library/react";
 import renderer from "react-test-renderer";
+import Navbar from "./__mock__/Navbar";
 
 afterEach(cleanup);
 
